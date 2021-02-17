@@ -1,1 +1,100 @@
-<header></header>
+<header class="page-header">
+  <div class="container">
+    <div class="page-header__body">
+      <a href="./index.html" class="page-header__logo">
+        <img src="" srcset="" alt="company's logo" />
+      </a>
+
+      <!--Burger-->
+
+      <button
+        type="button"
+        class="button__menu"
+        aria-controls="menu-container"
+        aria-expanded="false"
+        data-button-menu
+      >
+        <svg width="20" height="12" aria-label="Переключатель мобильного меню">
+          <use class="button__menu--cross" href=""></use>
+          <use class="button__menu--strips" href=""></use>
+        </svg>
+      </button>
+
+      <!--Menu container-->
+
+      <div class="menu__container" id="menu-container" data-menu>
+        <button type="button" class="button__menu--buy">
+          Buy now
+          <svg>
+            <use href=""></use>
+          </svg>
+        </button>
+        <nav class="page-header__menu">
+          <ul class="page-header__list">
+            <li>
+              <a href="#home" class="page-header__link">Home</a>
+            </li>
+            <li>
+              <a href="#about us" class="page-header__link">About us</a>
+            </li>
+            <li>
+              <a href="#how it’s made?" class="page-header__link"
+                >How it’s made?</a
+              >
+            </li>
+            <li>
+              <a href="#our products" class="page-header__link">Our products</a>
+            </li>
+            <li>
+              <a href="#contact" class="page-header__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Button-buy-->
+
+      <button type="button" class="button__menu--buy">
+        Buy now
+        <svg>
+          <use href=""></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!--Hero-->
+
+  <div class="hero">
+    <div class="container">
+      <h1 class="hero__title">ice cream made with passion</h1>
+      <div class="hero__button">
+        <a href="#products" class="hero__button--products">Products</a>
+        <a href="#how it’s made" class="hero__button--products"
+          >How it’s made?</a
+        >
+      </div>
+      <div class="hero__data">
+        <ul>
+          <li>16</li>
+          <li>cafes</li>
+        </ul>
+        <ul>
+          <li>23</li>
+          <li>food trucks</li>
+        </ul>
+      </div>
+      <div class="hero__information">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+        <a class="hero__strip">
+          <svg>
+            <use href=""></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
