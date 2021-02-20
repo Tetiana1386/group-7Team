@@ -70,10 +70,11 @@
   -ms-transition: left 0.25s;
   -o-transition: left 0.25s;
 }
-
-.menu_btn {
-  top: 52px;
-  right: 224px;
+@media screen and (min-width: $tablet) {
+  .menu_btn {
+    top: 52px;
+    right: 224px;
+  }
 }
 
 .menu_btn span {
